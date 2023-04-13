@@ -20,7 +20,7 @@ app.use(express.json());
 socketService.attach(httpServer);
 
 app.get("/health", (request, response) => {
-  response.send("Server is running!");
+  response.send("Server is running!!");
 });
 
 app.use(authRouter);
