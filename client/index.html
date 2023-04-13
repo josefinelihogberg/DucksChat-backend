@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DucksChat</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.1/socket.io.min.js"
+      integrity="sha512-AI5A3zIoeRSEEX9z3Vyir8NqSMC1pY7r5h2cE+9J6FLsoEmSSGLFaqMQw8SWvoONXogkfFrkQiJfLeHLz3+HOg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="socket.js"></script>
+    <script src="api.js"></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <h1>Ducks Chat</h1>
+    <div>
+      <div>
+        <label>Username</label>
+        <input class="username-field" type="text" />
+      </div>
+      <div>
+        <label>Password</label>
+        <input class="password-field" type="password" />
+      </div>
+      <button class="login-btn">Login</button>
+    </div>
+    <p class="server-info"></p>
+    <h2 class="chooseChannel"></h2>
+
+    <h3 class="allChannels"></h3>
+    <h3 class="emergency-info"></h3>
+
+    <h3 class="channel-info"></h3>
+    <p class="userconnect-info"></p>
+    <ul class="message-container"></ul>
+    <div>
+      <input type="text" class="channel-input" placeholder="write channel" />
+      <button class="channel-button" onclick="joinMessage()">Join</button>
+      <br />
+      <br />
+      <input type="text" class="message-input" placeholder="write message..." />
+      <button onclick="sendMessage()" class="send-button">Send Message</button>
+    </div>
+  </body>
+</html>
