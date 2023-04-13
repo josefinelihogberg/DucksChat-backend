@@ -16,7 +16,7 @@ async function handelAuthentication() {
   };
   // authenticate with server
   await authenticate(authDetails);
-  serverInfo.textContent = `Welcome ${usernameField.value}!`;
+  serverInfo.textContent = `Welcome ${usernameField.value}! 🌈💕`;
 
   fetchChannels();
 }

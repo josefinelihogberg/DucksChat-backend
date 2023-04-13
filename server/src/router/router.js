@@ -11,20 +11,20 @@ import socketService from "../service/socketService.js";
 
 const router = express.Router();
 
-// Socket applied to broadcast emergency message
-router.post("/broadcast", adminFilter.authorize, (request, response) => {
-  socketService.broadcast(
-    "emergency",
-    `IMPORTANT MESSAGE: ${request.body.message}`
-  );
-  response.sendStatus(200);
-});
-
 // Socket applied of broadcasting a new channel created
 router.put("/channel/", userFilter.authorize, (request, response) => {
   socketService.broadcast(
     "public",
     `A new channel "${request.body.subject}" has been created!`
+  );
+  response.sendStatus(200);
+});
+
+// Socket applied to broadcast emergency message
+router.post("/broadcast", adminFilter.authorize, (request, response) => {
+  socketService.broadcast(
+    "emergency",
+    `IMPORTANT MESSAGE: ${request.body.message}`
   );
   response.sendStatus(200);
 });

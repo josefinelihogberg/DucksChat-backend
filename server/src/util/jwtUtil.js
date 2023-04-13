@@ -15,14 +15,14 @@ function generate(username, role) {
     role: role,
   };
 
-  let token = jwt.sign(payload, process.env.SECRET_KEY, payloadOptions); //sign method sign on payload&secret key, also set expires time
+  let token = jwt.sign(payload, process.env.JWT_SECRET_KEY, payloadOptions); //sign method sign on payload&secret key, also set expires time
 
   return token; // synchronous, return token as string
 }
 
 function verify(token) {
   try {
-    return jwt.verify(token, process.env.SECRET_KEY); // verify signature and return payload
+    return jwt.verify(token, process.env.JWT_SECRET_KEY); // verify signature and return payload
   } catch (err) {
     let verfError = new Error(); // custom verification error
 
