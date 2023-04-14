@@ -24,7 +24,7 @@ router.put("/channel/", userFilter.authorize, (request, response) => {
 router.post("/broadcast", adminFilter.authorize, (request, response) => {
   socketService.broadcast(
     "emergency",
-    `IMPORTANT MESSAGE: ${request.body.message}`
+    `Emergency Message: ${request.body.message}`
   );
   response.sendStatus(200);
 });
