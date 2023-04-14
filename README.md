@@ -30,8 +30,8 @@ The backend contains the following endpoints.
 
 **Some code examples in the server.js, mongoClient.js, router.js and jwtUtil.js**
 
-<img width="400" src="https://user-images.githubusercontent.com/97985695/232014401-972f5a2d-310d-49de-8987-702d604b5458.png">
-<img width="400" src="https://user-images.githubusercontent.com/97985695/232014497-3c2d0f0e-e7c0-474a-a577-6e28a60d9cb9.png">
-<img width="400" src="https://user-images.githubusercontent.com/97985695/232014518-16ee9981-9277-4e6c-9145-9e87688ed48a.png">
-<img width="400" src="https://user-images.githubusercontent.com/97985695/232015099-b98a2e98-15c7-4cd6-b405-84d23d025b89.png">!
+<img width="380" src="https://user-images.githubusercontent.com/97985695/232014401-972f5a2d-310d-49de-8987-702d604b5458.png">
+<img width="380" src="https://user-images.githubusercontent.com/97985695/232014497-3c2d0f0e-e7c0-474a-a577-6e28a60d9cb9.png">
+<img width="380" src="https://user-images.githubusercontent.com/97985695/232014518-16ee9981-9277-4e6c-9145-9e87688ed48a.png">
+<img width="380" src="https://user-images.githubusercontent.com/97985695/232015099-b98a2e98-15c7-4cd6-b405-84d23d025b89.png">
 
