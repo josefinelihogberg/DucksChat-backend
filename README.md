@@ -29,5 +29,5 @@ The backend contains the following endpoints.
 
 **Some code examples in the server.js, mongoClient.js, router.js and jwtUtil.js**
 
-<img width="400" src="https://user-images.githubusercontent.com/97985695/232014518-16ee9981-9277-4e6c-9145-9e87688ed48a.png">   <img width="400" src="https://user-images.githubusercontent.com/97985695/232014401-972f5a2d-310d-49de-8987-702d604b5458.png">    <img width="400" src="https://user-images.githubusercontent.com/97985695/232016403-8a42117a-eebf-4c51-9ada-161a81850bce.png">    <img width="680" src="https://user-images.githubusercontent.com/97985695/232014497-3c2d0f0e-e7c0-474a-a577-6e28a60d9cb9.png">
+<img width="400" src="https://user-images.githubusercontent.com/97985695/232014518-16ee9981-9277-4e6c-9145-9e87688ed48a.png">   <img width="400" src="https://user-images.githubusercontent.com/97985695/232014401-972f5a2d-310d-49de-8987-702d604b5458.png">    <img width="400" src="https://user-images.githubusercontent.com/97985695/232016403-8a42117a-eebf-4c51-9ada-161a81850bce.png">    <img width="650" src="https://user-images.githubusercontent.com/97985695/232014497-3c2d0f0e-e7c0-474a-a577-6e28a60d9cb9.png">
 
