@@ -1,4 +1,4 @@
-# DucksChat-backend Examinationsuppgift Backend
+# DucksChat-backend Examinationsuppgift 
 **Keywords: Node.js, Express, Mongodb, JWT token, Socket.io and RestAPI.**
 
 FE22 KYH Group Chit Chat
@@ -27,9 +27,9 @@ The backend contains the following endpoints.
 [GET] - http://adress:port/ducks/api/broadcast/ <-- retrieves a list of all emergency messages that have been broadcast, e.g.traffic accidents, etc. 
 
 [POST] - http://address:port/ducks/api/broadcast/ <-- creates a new emergency message by admin.
-
-<img width="658" src="https://user-images.githubusercontent.com/97985695/232014401-972f5a2d-310d-49de-8987-702d604b5458.png">!
-<img width="658" src="https://user-images.githubusercontent.com/97985695/232014497-3c2d0f0e-e7c0-474a-a577-6e28a60d9cb9.png">!
-<img width="658" src="https://user-images.githubusercontent.com/97985695/232014518-16ee9981-9277-4e6c-9145-9e87688ed48a.png">!
-<img width="658" src="https://user-images.githubusercontent.com/97985695/232015099-b98a2e98-15c7-4cd6-b405-84d23d025b89.png">!
+Some code examples in the server.js, mongoClient.js, router.js and jwtUtil.js
+<img width="300" src="https://user-images.githubusercontent.com/97985695/232014401-972f5a2d-310d-49de-8987-702d604b5458.png">!
+<img width="300" src="https://user-images.githubusercontent.com/97985695/232014497-3c2d0f0e-e7c0-474a-a577-6e28a60d9cb9.png">!
+<img width="300" src="https://user-images.githubusercontent.com/97985695/232014518-16ee9981-9277-4e6c-9145-9e87688ed48a.png">!
+<img width="300" src="https://user-images.githubusercontent.com/97985695/232015099-b98a2e98-15c7-4cd6-b405-84d23d025b89.png">!
 
